@@ -7,6 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-	Welcome to DUCAT - JSP session
+<%
+String driver=config.getInitParameter("dname");  
+out.print("driver name is="+driver);  
+%> 
+
 </body>
 </html>

@@ -7,4 +7,23 @@
 		<welcome-file>0_readme.jsp</welcome-file>
 	</welcome-file-list>
 
+	<servlet>
+		<servlet-name>configExample</servlet-name>
+		<jsp-file>/configExample.jsp</jsp-file>
+		<init-param>
+			<param-name>dname</param-name>
+			<param-value>sun.jdbc.odbc.JdbcOdbcDriver</param-value>
+		</init-param>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>configExample</servlet-name>
+		<url-pattern>/configExample</url-pattern>
+	</servlet-mapping>
+
+<context-param>
+	<param-name>dname</param-name>
+	<param-value>sun.jdbc.odbc.JdbcOdbcDriver</param-value>
+</context-param> 
+
 </web-app>

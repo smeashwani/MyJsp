@@ -7,7 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-<% String pageName = page.toString();
-out.println("Page Name is " +pageName);%>
+<%
+String driver=application.getInitParameter("dname");  
+out.print("driver name is="+driver);  
+%> 
+
 </body>
 </html>
