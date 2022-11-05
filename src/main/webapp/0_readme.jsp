@@ -5,8 +5,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<a href="/configExample" >config</a></br>
-	<a href="/contextExample1.jsp" >context1 - read common properties</a></br>
-	<a href="/contextExample2.jsp" >context2 - read common properties</a></br>
+	<a href="/hidden.jsp" >hidden.jsp</a></br>
+	<a href="/cookie.jsp" >cookie.jsp</a></br>
+	<a href="/session.jsp" >session.jsp</a></br>
 </body>
 </html>
