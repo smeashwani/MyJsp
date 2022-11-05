@@ -5,6 +5,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<a href="/first.jsp" >first.jsp</a></br>
+	<form action="sec.jsp" >
+		<input type="text" name="uname" >
+		<input type="submit" /> 
+	</form>
 </body>
 </html>

@@ -5,6 +5,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<a href="/first.jsp" >first.jsp</a></br>
+	<%
+	String name=(String)pageContext.getAttribute("user",PageContext.SESSION_SCOPE); 
+	out.print("Hello "+name);  
+	%>
+	
 </body>
 </html>
