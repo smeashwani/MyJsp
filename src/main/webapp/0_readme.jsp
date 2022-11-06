@@ -1,9 +1,8 @@
-
-<a href="input.jsp" >Action Forward and include</a>
-<a href="UseBean.jsp" >UseBean</a>
-<a href="form.jsp" >setProperty Bean</a>
-
+<%@ taglib uri="WEB-INF/mytags.tld" prefix="m" %> 
+Current Date and Time is: <m:today/> </br>
+Cube <m:cube number="4"></m:cube>
 
 
-
-
+<m:loop end="5" start="1"> 
+	<p>My Name is Guest</p> 
+</m:loop>
