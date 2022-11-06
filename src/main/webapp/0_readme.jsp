@@ -5,6 +5,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<a href="/first.jsp" >first.jsp</a></br>
+	<form action="param.jsp">
+		T1: <input type="text" name="t1" /> </br>
+		T1: <input type="password" name="t2" /> </br>
+		<input type="submit" />
+	</form>
 </body>
 </html>
