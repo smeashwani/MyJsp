@@ -1,8 +1,27 @@
-<%@ taglib uri="WEB-INF/mytags.tld" prefix="m" %> 
-Current Date and Time is: <m:today/> </br>
-Cube <m:cube number="4"></m:cube>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>  
+welcome 
 
+<form action="0_readme.jsp">
+	<label>Enter A:</label> <input type="text" name="t1" /> </br>
+	<label>Enter B:</label> <input type="text" name="t2" /> </br>
+	<input type="submit" />
+</form>
+t1: ${param.t1}
+<c:out value="${'Welcome to JSTL'}"/>
+<c:out value="${param.t1}"/>
+<c:out value="${param.t2}"/>   
 
-<m:loop end="5" start="1"> 
-	<p>My Name is Guest</p> 
-</m:loop>
+<%-- <c:import var="data" url="https://www.ducatindia.com"/>  
+<c:out value="${data}"/> --%>
+
+<c:set var="Income" scope="session" value="${4000*4}"/>  
+<c:out value="${Income}"/>
+<a href="another.jsp">another</a>
+
+<c:if test = "${param.t1 != param.t2}">  
+ <p>t1 and t2 should be equal <br />   
+</c:if>  
+
+<c:forEach var="j" begin="1" end="3">  
+Item <c:out value="${j}"/><p>  
+</c:forEach>  
