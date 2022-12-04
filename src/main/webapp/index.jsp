@@ -7,6 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
+<!-- HTML Comment-->
+<% /*java comments */ %>
+<%-- jsp comments  --%>
 <%@ page import="java.util.*" info="composed by jsp training" contentType="text/html; charset=ISO-8859-1" %>
 Welcome to Ducat 
 <%= getServletInfo()%>

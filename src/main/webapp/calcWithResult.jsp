@@ -10,7 +10,7 @@ String s1 = request.getParameter("t1");
 String s2 = request.getParameter("t2");
 int a = 0,b=0;
 if(s1 != null) a = Integer.parseInt(s1);
-if(s1 != null) b = Integer.parseInt(s2);
+if(s2 != null) b = Integer.parseInt(s2);
 %>
 	<form action="calcWithResult.jsp">
 		A: <input type="text" name="t1" value="<%= a %>" /> </br>
