@@ -1,4 +1,4 @@
-	action.jsp
+	<h1>action.jsp </h1>
 	<%  
 	String t1  = request.getParameter("t1"); 
 	String t2  = request.getParameter("t2");

@@ -8,10 +8,9 @@
 Name = <%= obj.getName()%> </br>
 Age = <%= obj.getAge()%> </br>
 Salary = <jsp:getProperty name="obj" property="salary" /> </br>
-
+<hr>
 <jsp:useBean id="obj1" class="com.training.beans.Employee">
 	<jsp:setProperty name='obj1' property='*'/>
-
 </jsp:useBean>
 
 Name = <%= obj1.getName()%> </br>
