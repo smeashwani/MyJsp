@@ -1,5 +1,5 @@
 <%@ taglib uri="WEB-INF/mytags.tld" prefix="m" %> 
-Current Date and Time is: <m:today/> </br>
+Current Date is: <m:today/> </br>
 Cube <m:cube number="4"></m:cube>
 
 
