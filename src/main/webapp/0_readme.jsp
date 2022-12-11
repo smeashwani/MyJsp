@@ -1,4 +1,5 @@
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>  
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<a href="invalid.jsp">Invalid.jsp</a>  
 welcome  <div id="test"></div>
 <form action="0_readme.jsp">
 	<label>Enter A:</label> <input type="text" name="t1" /> </br>
