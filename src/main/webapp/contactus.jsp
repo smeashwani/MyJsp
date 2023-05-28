@@ -1,3 +1,3 @@
 <%@include file="header.jsp" %>
-<p>Main page</p>
+<p>contact us</p>
 <%@include file="footer.jsp" %>
