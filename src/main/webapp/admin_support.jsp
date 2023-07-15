@@ -1,4 +1,4 @@
-<%@ page errorPage="admin_support.jsp" isErrorPage="true" %>
+<%@ page isErrorPage="true" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,7 +9,7 @@
 	<center>
 		Please contact to Admin Email@gmail.com <br>
 		<font color="RED">Error: <%= exception.getMessage() %> </br></font> 
-		<img src="/img/admin_supp.png" />
+		<img src="img/admin_supp.png" />
 	</center>
 </body>
 </html>
