@@ -7,8 +7,8 @@
 <%
 	String t1 =  request.getParameter("t1");
 	String t2 =  request.getParameter("t2");
-	session.putValue("t1", t1);
-	session.putValue("t2", t2);
+	session.setAttribute("t1", t1);
+	session.setAttribute("t2", t2);
 %>
 <body>
 	<form action="sessionResult.jsp">
