@@ -1,11 +1,11 @@
 package com.training; 
-import javax.servlet.jsp.JspException; 
-import javax.servlet.jsp.tagext.TagSupport; 
+import jakarta.servlet.jsp.JspException;
+import jakarta.servlet.jsp.tagext.TagSupport; 
  public class Loop extends TagSupport{ 
    private int start=0; 
    private int end=0; 
     
-   public void setStart(int start) { 
+   public void setStart(int start) { 	
        this.start = start; 
    } 
    public void setEnd(int end) { 
