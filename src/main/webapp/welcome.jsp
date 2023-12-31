@@ -1,4 +1,1 @@
-
-	welcome to jsp
-	${param.name }
-	${param.t1 }
+ welcome to jsp ${param.name } ${param.t1 }
