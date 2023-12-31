@@ -1,4 +1,3 @@
-
 <a href="input.jsp">Action Forward and include</a>
 </br>
 <a href="UseBean.jsp">UseBean</a>
