@@ -16,9 +16,10 @@
 	</br> Exression - language PARAM
 	</br> Add = ${2+5}
 	</br> T1 = ${param.t1}
-	</br> T1 = ${param.t2}
+	</br> T2 = ${param.t2}
+	</br> T3 = ${param.t3}
 	</br> Cookie - ${cookie.JSESSIONID.value }
-	</br> Boolean = ${2 gt 5}
+	</br> Boolean1 = ${2 gt 5}
 	</br>
 </body>
 </html>
